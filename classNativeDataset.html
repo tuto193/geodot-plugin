@@ -90,6 +90,18 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_raster_layer_names</b> ()</td></tr>
 <tr class="memdesc:a6a099eed909f0eff2c1c2d9f68bd7e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the names of all raster layers as std::strings. <br /></td></tr>
 <tr class="separator:a6a099eed909f0eff2c1c2d9f68bd7e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa29a7836a891f87fa6fb3a6c4143e675"><td class="memItemLeft" align="right" valign="top"><a id="aa29a7836a891f87fa6fb3a6c4143e675" name="aa29a7836a891f87fa6fb3a6c4143e675"></a>
+std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_raster_band_descriptions</b> ()</td></tr>
+<tr class="memdesc:aa29a7836a891f87fa6fb3a6c4143e675"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the descriptions of all raster bands as std::strings. <br /></td></tr>
+<tr class="separator:aa29a7836a891f87fa6fb3a6c4143e675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472fc073c531507f83ce52771284263e"><td class="memItemLeft" align="right" valign="top"><a id="a472fc073c531507f83ce52771284263e" name="a472fc073c531507f83ce52771284263e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_layer</b> (const char *name) const</td></tr>
+<tr class="memdesc:a472fc073c531507f83ce52771284263e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the dataset has a feature layer of the given name. <br /></td></tr>
+<tr class="separator:a472fc073c531507f83ce52771284263e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e69cde76d0650c12ec62cbdc4b3fae0"><td class="memItemLeft" align="right" valign="top"><a id="a3e69cde76d0650c12ec62cbdc4b3fae0" name="a3e69cde76d0650c12ec62cbdc4b3fae0"></a>
+std::shared_ptr&lt; <a class="el" href="classNativeLayer.html">NativeLayer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_sql_layer</b> (const char *query) const</td></tr>
+<tr class="memdesc:a3e69cde76d0650c12ec62cbdc4b3fae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a layer whose features are the result of a given SQL query. <br /></td></tr>
+<tr class="separator:a3e69cde76d0650c12ec62cbdc4b3fae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae81d4f82ad5803cc51b40e7b3476abda"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classNativeLayer.html">NativeLayer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeDataset.html#ae81d4f82ad5803cc51b40e7b3476abda">get_layer</a> (const char *name) const</td></tr>
 <tr class="separator:ae81d4f82ad5803cc51b40e7b3476abda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac48595f4a9a4e03edd820fc461752488"><td class="memItemLeft" align="right" valign="top"><a id="ac48595f4a9a4e03edd820fc461752488" name="ac48595f4a9a4e03edd820fc461752488"></a>
@@ -101,6 +113,9 @@ std::shared_ptr&lt; <a class="el" href="classNativeDataset.html">NativeDataset</
 <tr class="memitem:a64f47b91ce09074e88f31ef7e39b1f81"><td class="memItemLeft" align="right" valign="top"><a id="a64f47b91ce09074e88f31ef7e39b1f81" name="a64f47b91ce09074e88f31ef7e39b1f81"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_valid</b> () const</td></tr>
 <tr class="separator:a64f47b91ce09074e88f31ef7e39b1f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40647602454138ab06cfe7f91aedd7f"><td class="memItemLeft" align="right" valign="top"><a id="aa40647602454138ab06cfe7f91aedd7f" name="aa40647602454138ab06cfe7f91aedd7f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_epsg_code</b> () const</td></tr>
+<tr class="separator:aa40647602454138ab06cfe7f91aedd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
