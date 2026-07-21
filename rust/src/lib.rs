@@ -1,5 +1,7 @@
 use godot::prelude::*;
 
+mod error;
+
 struct GeodotRust;
 
 #[gdextension]
