@@ -1,0 +1,18 @@
+[configuration]
+
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = "4.5"
+reloadable = true
+
+[libraries]
+
+linux.debug.x86_64 = "res://bin/libgeodot_rust.so"
+linux.release.x86_64 = "res://bin/libgeodot_rust.so"
+
+macos.debug = "res://bin/libgeodot_rust.dylib"
+macos.release = "res://bin/libgeodot_rust.dylib"
+macos.debug.arm64 = "res://bin/libgeodot_rust.dylib"
+macos.release.arm64 = "res://bin/libgeodot_rust.dylib"
+
+windows.debug.x86_64 = "res://bin/libgeodot_rust.dll"
+windows.release.x86_64 = "res://bin/libgeodot_rust.dll"

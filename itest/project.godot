@@ -1,0 +1,19 @@
+; Minimal headless Godot project used only to run the geodot-rust
+; in-engine integration tests (see `../rust/src/itest.rs`).
+;
+; Run with:
+;   ./run.sh
+; or manually:
+;   godot4 --headless --path . --quit -s run_tests.gd
+
+config_version=5
+
+[application]
+
+config/name="geodot-rust itests"
+config/features=PackedStringArray("4.5")
+run/main_scene=""
+
+[debug]
+
+gdscript/warnings/unassigned_variable=0
