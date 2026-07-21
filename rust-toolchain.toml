@@ -1,0 +1,22 @@
+
+[toolchain]
+channel = "stable"
+components = [ "rustfmt", "rustc", "rust-src", "rust-std", "cargo", "clippy", "rust-analyzer", "rust-docs", "llvm-tools" ]
+targets = [
+    # Apple
+    "aarch64-apple-darwin",
+    "x86_64-apple-darwin",
+    # Linux
+    "x86_64-unknown-linux-gnu",
+    "aarch64-unknown-linux-gnu",
+    # Windows
+    "x86_64-pc-windows-msvc",
+    # Android
+    # "aarch64-linux-android",
+    # "armv7-linux-androideabi",
+    # "x86_64-linux-android",
+    # "i686-linux-android",
+    # # Web
+    # "wasm32-unknown-emscripten"
+]
+profile = "default"

@@ -5,3 +5,5 @@ build/
 **/.vscode/
 demo/.import/
 **/.godot/*
+.cache/
+compile_commands.json
