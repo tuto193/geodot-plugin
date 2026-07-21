@@ -1,6 +1,7 @@
 use godot::prelude::*;
 
 mod error;
+mod global;
 
 struct GeodotRust;
 
