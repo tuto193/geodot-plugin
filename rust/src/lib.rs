@@ -1,6 +1,7 @@
 use godot::prelude::*;
 
 mod error;
+mod geo_data;
 mod geo_features;
 mod geo_image;
 mod geo_transform;
